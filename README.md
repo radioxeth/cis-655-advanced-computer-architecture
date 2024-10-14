@@ -1,8 +1,8 @@
 # CIS 655 Advanced Computer Architecture
 ## Table of Contents
-- **&rarr;[Week 1 Fundamentals of Quantitative Design and Analysis](./week1/README.md)**
+- [Week 1 Fundamentals of Quantitative Design and Analysis](./week1/README.md)
 - [Week 2 Processor Design](./week2/README.md)
-- [Week 3 Advanced Pipelining and I/O](./week3/README.md)
+- **&rarr;[Week 3 Advanced Pipelining and I/O](./week3/README.md)**
 - [Week 4 Memory Hierarchy Design](./week4/README.md)
 - [Week 5 Instruction-Level Parallelism (ILP)](./week5/README.md)
 - [Week 6 Vector and GPU Architectures (DLP)](./week6/README.md)
