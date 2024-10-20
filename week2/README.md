@@ -489,3 +489,9 @@ SW R1, 5(52)
 - RISC V
   - 
 
+we can assume any pipelining question - we can get one instruction per cycle until the first pipeline is full
+
+#### Structural Hazards
+
+not enough hardware to share instructions
+- we can 

@@ -10,3 +10,6 @@
 - [Week 8 Shared-Memory Systems (Data-Level Parallelism)](../week8/README.md)
 - [Week 9 Interconnection Networks](../week9/README.md)
 - [Week 10 Request-Level Parallelism](../week10/README.md)
+
+*At this point I am switching to rough notes and will instead rely on the lecture slides provided*
+
