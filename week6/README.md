@@ -10,3 +10,53 @@
 - [Week 8 Shared-Memory Systems (Data-Level Parallelism)](../week8/README.md)
 - [Week 9 Interconnection Networks](../week9/README.md)
 - [Week 10 Request-Level Parallelism](../week10/README.md)
+
+### Data-level parallelism
+- DLP
+- DLP architectures
+- vector architectures
+- challenges
+- supercomputers
+- SIMD extensions for multimedia
+- GPU
+- NVIDIA
+
+### Types of Parallelism
+
+### DLP Architecture
+
+### Vector Architectures
+
+
+## Live Session
+
+### Data Parallelism
+
+- assume large amounts of data
+- SIMD is more energy efficient than MIMD
+
+- Instruction Clock Cycles
+
+no forwarding unit:
+
+```
+LD R1, 0(R2)      |FDXMW
+DADDI R1, R1, #1  | FSSDXMW
+SD 0(R2), R1      |    FSSDXMW
+DADDI R2, R2, #4  |       FDXMW
+DSUB R4, R3, R2   |        FSSDXMW
+BNEZ R4, Loop     |           FSSDXMW
+```
+
+```
+no forwarding unit:
+LD R1, 0(R2)      |FDXMW
+DADDI R1, R1, #1  | FDSXMW
+SD 0(R2), R1      |  FSDXMW
+DADDI R2, R2, #4  |    FDXMW
+DSUB R4, R3, R2   |     FDXMW
+BNEZ R4, Loop     |      FDXMW
+```
+
+
+A. Assume no forwarding unit
