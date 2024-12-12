@@ -136,7 +136,7 @@ AMAT = % instruction &times; (hit time + instruction miss rate &times; miss pena
 |-                        |-|-|-|-|-|-|-|-|-|- |- |- |- |- |- |- |
 |Add $S0, $0, $0          |F|D|X|M|W| | | | | | | | | | | | |
 |Loop: beq  $S0, $S1, done| |F|D|X|M|W| | | | | | | | | | |
-|Lw$t0, 0($S2)            | | |F|D|X|M|W| | | | | | | | | |
+|Lw $t0, 0($S2)           | | |F|D|X|M|W| | | | | | | | | |
 |Addi $S2, $S2, 4         | | | |F|D|X|M|W| | | | | | | | |
 |Add $t0, $t0, 5          | | | | |F|D|X|M|W| | | | | | | |
 |Sw $t0, 0 ($S4)          | | | | | |F|D|X|M|W| | | | | | |
@@ -151,9 +151,9 @@ AMAT = % instruction &times; (hit time + instruction miss rate &times; miss pena
 |-                        |-|-|-|-|-|-|-|-|-|- |- |- |- |- |- |- |
 |Add $S0, $0, $0          |F|D|X|M|W| | | | | | | | | | | | |
 |Loop: beq  $S0, $S1, done| |F|S|S|D|X|M|W| | | | | | | | | | |
-|Lw$t0, 0($S2)            | | | | |F|D|X|M|W| | | | | | | | | |
+|Lw $t0, 0($S2)           | | | | |F|D|X|M|W| | | | | | | | | |
 |Addi $S2, $S2, 4         | | | | | |F|D|X|M|W| | | | | | | | |
-|Add $t0, $t0, 5          | | | | | | |F|D|X|M|W| | | | | | | |
+|Add $t0, $t0, 5          | | | | | | |F|D|S|X|M|W| | | | | | | |
 |Sw $t0, 0 ($S4)          | | | | | | | |F|S|S|D|X|M|W| | | | | | |
 |Addi $S4, $S4, 4         | | | | | | | | | | |F|D|X|M|W| | | | |
 |Addi $S0, $S0, 1         | | | | | | | | | | | |F|D|X|M|W| | | |

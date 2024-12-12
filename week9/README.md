@@ -10,3 +10,24 @@
 - [Week 8 Shared-Memory Systems (Data-Level Parallelism)](../week8/README.md)
 - **&rarr;[Week 9 Interconnection Networks](README.md)**
 - [Week 10 Request-Level Parallelism](../week10/README.md)
+
+
+## presentations
+next week for paper presentation
+
+## Live Session
+
+### Network Interface
+
+- routing
+  - which of of the possible paths are allowed for packets
+- arbitration
+  - when are paths available for packets
+- switching
+  - how are paths allocated to packets
+
+### Shared-media networks
+
+avoid collisions because bus is a shared resource
+- CSMA/CD
+  - carrier sensing multi access (with collision detection)

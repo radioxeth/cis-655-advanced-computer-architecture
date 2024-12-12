@@ -10,3 +10,13 @@
 - [Week 8 Shared-Memory Systems (Data-Level Parallelism)](../week8/README.md)
 - [Week 9 Interconnection Networks](../week9/README.md)
 - **&rarr;[Week 10 Request-Level Parallelism](README.md)**
+
+
+Final exam 
+
+add
+sub
+load
+store
+
+up to four line programs

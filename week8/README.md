@@ -10,3 +10,27 @@
 - **&rarr;[Week 8 Shared-Memory Systems (Data-Level Parallelism)](README.md)**
 - [Week 9 Interconnection Networks](../week9/README.md)
 - [Week 10 Request-Level Parallelism](../week10/README.md)
+
+
+## Live Session
+
+### Thread level parallelism
+
+
+### Snooping Protocol
+
+I: invalidated
+M: mine or modified
+S: shared, okay to be shared, readonly
+
+
+Local Read
+- S observed by I
+Local Write
+- M writes to itself
+
+```mermaid
+
+flowchart TD
+    I --> I
+```
