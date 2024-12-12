@@ -8,5 +8,5 @@
 - [Week 6 Vector and GPU Architectures (DLP)](./week6/README.md)
 - [Week 7 Multithreaded and Multicore Processors (Thread-Level Parallelism)](./week7/README.md)
 - [Week 8 Shared-Memory Systems (Data-Level Parallelism)](./week8/README.md)
-- **&rarr;[Week 9 Interconnection Networks](./week9/README.md)**
-- [Week 10 Request-Level Parallelism](./week10/README.md)
+- [Week 9 Interconnection Networks](./week9/README.md)
+- **&rarr;[Week 10 Request-Level Parallelism](./week10/README.md)**
